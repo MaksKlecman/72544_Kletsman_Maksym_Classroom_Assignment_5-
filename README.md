@@ -3,12 +3,23 @@
 
 # GitHub Cloud Lab
 
-A hands-on repository for learning GitHub as a cloud platform.
+This repository contains practical exercises for learning GitHub as a cloud development platform.
 
-## Contents
-- `hello.py` — A simple Python greeting script
-- `.devcontainer/` — Codespace configuration
+## Exercises Completed
 
-## Running the script
+### Exercise 1: Git Workflow
+- Created branches and managed Pull Requests.
+- Used GitHub Issues and closed them automatically via commits.
+- Implemented `hello.py` with greeting and farewell functions.
+
+### Exercise 2: CI/CD Pipeline
+- Developed a `calculator.py` module in the `src/` folder.
+- Wrote automated tests in the `tests/` folder using `pytest`.
+- Configured **GitHub Actions** (`ci.yml`) to test code on every push.
+- Added a `Dockerfile` for containerization.
+
+## How to Run
+
+### Run the Script
 
 python hello.py
